@@ -1,0 +1,12 @@
+{
+    "name": "sample-http",
+    "version": "0.0.1",
+    "dependencies": {
+        "@dynatrace/opentelemetry-gcf": "^1.243.1",
+        "@google-cloud/functions-framework": "^3.1.2",
+        "@opentelemetry/sdk-trace-node": "^1.4.0"
+    },
+    "scripts": {
+        "start": "functions-framework --target=helloWorld"
+    }
+}
